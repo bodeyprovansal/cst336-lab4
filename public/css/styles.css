@@ -1,4 +1,51 @@
-body {
+body, html {
   background-color: #CBE2F6;
+  
   text-align: center;
+}
+
+h1 {
+  color: #777;
+}
+
+.row, .col-md-4, .thumbnail, .img-rounded, .caption {
+  
+}
+
+.thumbnail {
+  background-color: whitesmoke;
+}
+
+.jumbotron {
+  background-color: #529ee0;
+}
+
+
+
+.navbar {
+  background-color: #0f3557;
+}
+
+.navbar-default .navbar-nav >li >a {
+  color: whitesmoke;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  color: #777;
+}
+
+.navbar-default .navbar-brand {
+  color: whitesmoke;
+}
+
+#capText {
+  font-size: 0.2em;
+}
+
+.container {
+  background-color: whitesmoke;
 }

@@ -1,10 +1,32 @@
 <%include partials/header.ejs %>
   
-  <h1> A site about Our Solar System </h1>
-    <img width="500 px" src="/img/solar_system.png" alt="The Solar System" />
-  <p>Click on a planet to learn more about it:</p>
-    <a href="/mercury"> Mercury </a> <br>
-    <a href="/venus"> Venus </a> <br>
-    Earth <br>
+  <div class="jumbotron">
+  <h1> A Site about Our Solar System </h1>
+    
+  </div>
+  <div class="row center-block">
+      <div class="col-md-4 well-sm">
+        <div class="thumbnail ">  
+          <img class="img-rounded " width="500 px" src="/img/solar_system.png" alt="The Solar System" />
+          <div class="caption ">
+            <p class="">Fig1. The Solar System</p>
+          </div> 
+        </div>
+      </div>
+    </div>
+  
+   <br /> 
+  
+  <div class="container">
+    <p>Click on a planet to learn more about it:</p>
+    <h2>Planets</h2>  
+    <ul class="list-group">
+      <li class="list-group-item"><a href="/mercury"> Mercury </a></li>
+      <li class="list-group-item"><a href="/venus"> Venus </a></li>
+      <li class="list-group-item"><a href="/earth"> Earth </a></li>
+      <li class="list-group-item"><a href="/mars"> Mars </a></li>
+  </ul>
+</div>
+
   
 <%include partials/footer.ejs %>
